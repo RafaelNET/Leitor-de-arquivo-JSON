@@ -28,7 +28,8 @@ namespace ImportadorExportador
                 return;
             }
 
-            /*[
+            /*
+            [
 	            {
 		            "id": 10,
 		            "codEstabel": "2",
@@ -48,7 +49,7 @@ namespace ImportadorExportador
 			            }
 		            ]
 	            }
-            ]*/
+            ] */
 
             String conteudoArquivo = File.ReadAllText(txtArquivoImportar.Text);
 
